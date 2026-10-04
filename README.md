@@ -1,5 +1,7 @@
 # Willian Zanuto
 
+[🇺🇸 English version](./README.en.md)
+
 ### Senior .NET Software Engineer | C# • ASP.NET Core • APIs • RabbitMQ | Software Architecture • Modernização
 
 Desenvolvedor de software com **13+ anos de trajetória em Tecnologia** e **9+ anos em desenvolvimento**, com experiência em sistemas corporativos, integrações, APIs, mensageria, modernização de aplicações e transformação de processos manuais em soluções digitais.
