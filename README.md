@@ -58,9 +58,9 @@ API REST modernizada para **.NET 10**, com regra de negócio isolada e testada, 
 
 ### [Central Pessoa API](https://github.com/WillianZanutoOliveira/ApiCentralPessoa)
 
-API em **.NET 10** para gerenciamento de pessoas físicas e jurídicas, com EF Core/MySQL, configuração segura, validação, Problem Details, tratamento centralizado de exceções, health check e testes automatizados.
+API em **.NET 10** para gerenciamento de pessoas físicas e jurídicas, com EF Core/MySQL, configuração segura, validação, Problem Details, tratamento centralizado de exceções, health check, testes automatizados e ambiente Docker Compose.
 
-**.NET 10 · ASP.NET Core · EF Core · MySQL · NUnit · CI/CD · Secure Configuration**
+**.NET 10 · ASP.NET Core · EF Core · MySQL · NUnit · Docker Compose · CI/CD · Secure Configuration**
 
 [Architecture](https://github.com/WillianZanutoOliveira/ApiCentralPessoa/blob/master/docs/architecture.md) ·
 [ADR — .NET 10](https://github.com/WillianZanutoOliveira/ApiCentralPessoa/blob/master/docs/adr/0001-modernize-to-dotnet-10.md) ·
