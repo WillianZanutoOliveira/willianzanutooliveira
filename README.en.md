@@ -28,36 +28,31 @@ A **.NET 10 distributed systems reference platform** created to demonstrate prod
 The implemented flow coordinates **Orders, Inventory, Payments and Notifications** through asynchronous messages, database-per-service boundaries, retries, duplicate protection, health checks, observability and architecture documentation.
 
 [Architecture](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/architecture.md) ·
+[5-minute Recruiter Walkthrough](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/recruiter-guide.md) ·
 [ADRs](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/docs/adr) ·
 [Kubernetes](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/deploy/k8s) ·
 [CI](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/actions/workflows/ci.yml)
+
+**4 services · 3 independent PostgreSQL databases · 5 integration events · CI validating 4 Docker images**
 
 > The goal is not to showcase code volume, but decisions around **distributed consistency, message reliability, decoupling, observability and operations**.
 
 ---
 
-## 🎯 What recruiters can verify here
+## 🎯 Engineering evidence
 
-**Backend & APIs**  
-C# · .NET · ASP.NET Core · REST APIs · EF Core
+| Signal | Public evidence |
+| --- | --- |
+| **Distributed architecture** | Orders, Inventory, Payments and Notifications as independent services |
+| **Reliable messaging** | RabbitMQ/MassTransit with Outbox/Inbox, retries and idempotency |
+| **Data ownership** | Database-per-service PostgreSQL boundaries with no cross-service table access |
+| **Consistency model** | Asynchronous flow through `Pending`, `Completed`, `InventoryRejected` and `PaymentFailed` states |
+| **Observability** | OpenTelemetry traces, metrics and health checks |
+| **Delivery** | GitHub Actions running build, tests, coverage and four Docker image builds |
 
-**Architecture & Integration**  
-Clean Architecture · RabbitMQ · MassTransit · Event-Driven Architecture · Outbox/Inbox · Idempotency · Eventual Consistency
+➡️ [Open the 5-minute engineering walkthrough](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/recruiter-guide.md)
 
-**Data**  
-SQL Server · PostgreSQL · MySQL
-
-**Cloud & Delivery**  
-Azure · Azure DevOps · AWS · GitHub Actions · Docker · Kubernetes · CI/CD
-
-**Observability & Quality**  
-OpenTelemetry · Health Checks · Problem Details · Automated Tests · Code Coverage · ADRs
-
-**Frontend & Mobile**  
-Angular · Vue.js · Flutter
-
-**Additional background**  
-.NET Framework · Java · PHP · Python · Automation · AI-assisted development
+**Core stack:** C# · .NET 10 · ASP.NET Core · EF Core · RabbitMQ · MassTransit · PostgreSQL · SQL Server · Azure DevOps · AWS · Docker · Kubernetes · OpenTelemetry
 
 ---
 
@@ -126,14 +121,6 @@ Across public projects I try to make not only the final result visible, but also
 My background includes technical support, systems analysis and software development. This gives me a broader perspective that includes code, operations, users, integrations and business processes.
 
 My experience includes **digitizing manual workflows, web/mobile applications, system integrations, legacy modernization, troubleshooting, automation and translating business needs into software**.
-
----
-
-## 🧭 Technical direction
-
-Continuously deepening knowledge in:
-
-**Software Architecture · Distributed Systems · Microservices · Event-Driven Architecture · Clean Architecture · Cloud · Observability · Legacy Modernization**
 
 ---
 
