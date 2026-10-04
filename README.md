@@ -47,16 +47,16 @@ Case de engenharia de produto mostrando digitalização de processos, automaçã
 
 ## 🚀 Projetos públicos selecionados
 
-### [Distributed Commerce Platform](https://github.com/WillianZanutoOliveira/api-dotnet)
+### [Distributed Commerce Platform](https://github.com/WillianZanutoOliveira/distributed-commerce-platform)
 
 Projeto-vitrine de **sistemas distribuídos em .NET 10**, com Clean Architecture no domínio de Orders, RabbitMQ/MassTransit, PostgreSQL por serviço, transactional outbox/inbox, idempotência, eventual consistency, retries, OpenTelemetry, Docker, Kubernetes e CI.
 
 **.NET 10 · Clean Architecture · RabbitMQ · MassTransit · PostgreSQL · Event-Driven Architecture · OpenTelemetry · Docker · Kubernetes**
 
-[Architecture](https://github.com/WillianZanutoOliveira/api-dotnet/blob/main/docs/architecture.md) ·
-[ADRs](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/docs/adr) ·
-[Kubernetes](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/deploy/k8s) ·
-[CI](https://github.com/WillianZanutoOliveira/api-dotnet/actions/workflows/ci.yml)
+[Architecture](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/architecture.md) ·
+[ADRs](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/docs/adr) ·
+[Kubernetes](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/deploy/k8s) ·
+[CI](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/actions/workflows/ci.yml)
 
 ### [Golden Raspberry Awards API](https://github.com/WillianZanutoOliveira/ApiWebFilme)
 
