@@ -22,7 +22,7 @@ Product-engineering case study about digitizing and automating vehicle-informati
 
 ## Public engineering projects
 
-### [Distributed Commerce Platform](https://github.com/WillianZanutoOliveira/api-dotnet)
+### [Distributed Commerce Platform](https://github.com/WillianZanutoOliveira/distributed-commerce-platform)
 
 Public reference platform focused on senior-level distributed-system concerns:
 
@@ -39,10 +39,10 @@ Public reference platform focused on senior-level distributed-system concerns:
 - automated tests, coverage and CI container validation.
 
 Useful links:
-[Architecture](https://github.com/WillianZanutoOliveira/api-dotnet/blob/main/docs/architecture.md) ·
-[ADRs](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/docs/adr) ·
-[Kubernetes](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/deploy/k8s) ·
-[CI](https://github.com/WillianZanutoOliveira/api-dotnet/actions/workflows/ci.yml)
+[Architecture](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/architecture.md) ·
+[ADRs](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/docs/adr) ·
+[Kubernetes](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/deploy/k8s) ·
+[CI](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/actions/workflows/ci.yml)
 
 ### [Golden Raspberry Awards API](https://github.com/WillianZanutoOliveira/ApiWebFilme)
 
