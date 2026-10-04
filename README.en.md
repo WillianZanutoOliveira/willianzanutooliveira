@@ -43,6 +43,17 @@ Product-engineering case study covering workflow digitalization, automation, ext
 
 ## Selected public projects
 
+### [Distributed Commerce Platform](https://github.com/WillianZanutoOliveira/api-dotnet)
+
+A **.NET 10 distributed-systems showcase** using Clean Architecture in the Orders bounded context, RabbitMQ/MassTransit, database-per-service PostgreSQL, transactional outbox/inbox, idempotency, eventual consistency, retries, OpenTelemetry, Docker, Kubernetes examples and CI.
+
+**.NET 10 · Clean Architecture · RabbitMQ · MassTransit · PostgreSQL · Event-Driven Architecture · OpenTelemetry · Docker · Kubernetes**
+
+[Architecture](https://github.com/WillianZanutoOliveira/api-dotnet/blob/main/docs/architecture.md) ·
+[ADRs](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/docs/adr) ·
+[Kubernetes](https://github.com/WillianZanutoOliveira/api-dotnet/tree/main/deploy/k8s) ·
+[CI](https://github.com/WillianZanutoOliveira/api-dotnet/actions/workflows/ci.yml)
+
 ### [Golden Raspberry Awards API](https://github.com/WillianZanutoOliveira/ApiWebFilme)
 
 Modernized **.NET 10** REST API with a separated and unit-tested business rule, startup reference-data seeding, side-effect-free GET behavior, EF Core/SQLite, Problem Details, health checks, Docker and CI with code coverage.
