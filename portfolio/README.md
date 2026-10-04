@@ -40,6 +40,7 @@ Public reference platform focused on senior-level distributed-system concerns:
 
 Useful links:
 [Architecture](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/architecture.md) ·
+[5-minute Recruiter Walkthrough](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/recruiter-guide.md) ·
 [ADRs](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/docs/adr) ·
 [Kubernetes](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/deploy/k8s) ·
 [CI](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/actions/workflows/ci.yml)
