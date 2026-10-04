@@ -49,13 +49,14 @@ Case de engenharia de produto mostrando digitalização de processos, automaçã
 
 ### [Golden Raspberry Awards API](https://github.com/WillianZanutoOliveira/ApiWebFilme)
 
-API REST modernizada para **.NET 10**, com regra de negócio isolada e testada, persistência com EF Core/SQLite, Problem Details, health check, Docker e pipeline de CI com testes e cobertura.
+API REST modernizada para **.NET 10**, com regra de negócio isolada e testada, seed de dados no startup, GET sem efeitos colaterais, EF Core/SQLite, Problem Details, health check, Docker e CI com cobertura.
 
 **.NET 10 · ASP.NET Core · EF Core · NUnit · Docker · GitHub Actions**
 
 [Architecture](https://github.com/WillianZanutoOliveira/ApiWebFilme/blob/master/docs/architecture.md) ·
 [ADR — .NET 10](https://github.com/WillianZanutoOliveira/ApiWebFilme/blob/master/docs/adr/0001-modernize-to-dotnet-10.md) ·
 [ADR — Consecutive Award Intervals](https://github.com/WillianZanutoOliveira/ApiWebFilme/blob/master/docs/adr/0002-consecutive-award-intervals.md) ·
+[ADR — Startup Seeding](https://github.com/WillianZanutoOliveira/ApiWebFilme/blob/master/docs/adr/0003-startup-data-seeding.md) ·
 [CI](https://github.com/WillianZanutoOliveira/ApiWebFilme/actions/workflows/ci.yml)
 
 ### [Central Pessoa API](https://github.com/WillianZanutoOliveira/ApiCentralPessoa)
