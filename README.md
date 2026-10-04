@@ -42,13 +42,13 @@ Case de engenharia de produto mostrando digitalização de processos, automaçã
 
 API REST em C#/.NET para análise de dados do Golden Raspberry Awards, com persistência, repositórios e testes de integração.
 
-**C# · ASP.NET Core · EF Core · Swagger · Integration Tests**
+**.NET 10 · C# · ASP.NET Core · EF Core · Swagger · NUnit · CI/CD**
 
 ### [Central Pessoa API](https://github.com/WillianZanutoOliveira/ApiCentralPessoa)
 
 API para gerenciamento de pessoas físicas e jurídicas, endereços e telefones.
 
-**C# · ASP.NET Core · EF Core · MySQL · AutoMapper · Swagger**
+**.NET 10 · C# · ASP.NET Core · EF Core · MySQL · Swagger · CI/CD · Secure Configuration**
 
 ---
 
