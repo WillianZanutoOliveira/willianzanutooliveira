@@ -28,36 +28,31 @@ Plataforma de referência em **.NET 10** criada para demonstrar decisões de eng
 O fluxo implementa uma jornada distribuída de pedidos entre **Orders, Inventory, Payments e Notifications**, com banco por serviço, mensagens assíncronas, retries, proteção contra duplicidade, health checks, observabilidade e documentação arquitetural.
 
 [Architecture](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/architecture.md) ·
+[5-minute Recruiter Walkthrough](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/recruiter-guide.md) ·
 [ADRs](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/docs/adr) ·
 [Kubernetes](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/tree/main/deploy/k8s) ·
 [CI](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/actions/workflows/ci.yml)
+
+**4 serviços · 3 bancos PostgreSQL independentes · 5 integration events · CI validando 4 imagens Docker**
 
 > O objetivo deste projeto não é demonstrar quantidade de código, mas decisões sobre **consistência distribuída, confiabilidade de mensagens, desacoplamento, observabilidade e operação**.
 
 ---
 
-## 🎯 O que um recrutador consegue verificar aqui
+## 🎯 Evidências de engenharia
 
-**Backend & APIs**  
-C# · .NET · ASP.NET Core · REST APIs · EF Core
+| Sinal | Evidência pública |
+| --- | --- |
+| **Arquitetura distribuída** | Orders, Inventory, Payments e Notifications como serviços independentes |
+| **Mensageria confiável** | RabbitMQ/MassTransit com Outbox/Inbox, retries e idempotência |
+| **Ownership de dados** | PostgreSQL por serviço, sem compartilhamento de tabelas entre bounded contexts |
+| **Consistência** | Fluxo assíncrono com estados `Pending`, `Completed`, `InventoryRejected` e `PaymentFailed` |
+| **Observabilidade** | OpenTelemetry, métricas, traces e health checks |
+| **Entrega** | GitHub Actions com build, testes, coverage e build das quatro imagens Docker |
 
-**Arquitetura & Integração**  
-Clean Architecture · RabbitMQ · MassTransit · Event-Driven Architecture · Outbox/Inbox · Idempotência · Eventual Consistency
+➡️ [Ver o walkthrough técnico de 5 minutos](https://github.com/WillianZanutoOliveira/distributed-commerce-platform/blob/main/docs/recruiter-guide.md)
 
-**Dados**  
-SQL Server · PostgreSQL · MySQL
-
-**Cloud & Delivery**  
-Azure · Azure DevOps · AWS · GitHub Actions · Docker · Kubernetes · CI/CD
-
-**Observabilidade & Qualidade**  
-OpenTelemetry · Health Checks · Problem Details · Testes automatizados · Code Coverage · ADRs
-
-**Frontend & Mobile**  
-Angular · Vue.js · Flutter
-
-**Experiência adicional**  
-.NET Framework · Java · PHP · Python · Automação · IA aplicada ao desenvolvimento
+**Stack principal:** C# · .NET 10 · ASP.NET Core · EF Core · RabbitMQ · MassTransit · PostgreSQL · SQL Server · Azure DevOps · AWS · Docker · Kubernetes · OpenTelemetry
 
 ---
 
@@ -126,14 +121,6 @@ Nos projetos públicos procuro tornar verificável não apenas o resultado final
 Minha trajetória passou por suporte técnico, análise de sistemas e desenvolvimento. Isso me trouxe uma visão que vai além do código e inclui operação, usuários, integrações e processos de negócio.
 
 Tenho experiência com **digitalização de processos manuais, aplicações web/mobile, integrações entre sistemas, modernização de legado, troubleshooting, automação e tradução de necessidades de negócio em software**.
-
----
-
-## 🧭 Direção técnica
-
-Aprofundando continuamente conhecimentos em:
-
-**Software Architecture · Distributed Systems · Microservices · Event-Driven Architecture · Clean Architecture · Cloud · Observability · Modernização de Legado**
 
 ---
 
