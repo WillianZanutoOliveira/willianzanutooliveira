@@ -45,7 +45,7 @@ Product-engineering case study covering workflow digitalization, automation, ext
 
 ### [Golden Raspberry Awards API](https://github.com/WillianZanutoOliveira/ApiWebFilme)
 
-Modernized **.NET 10** REST API with a separated and unit-tested business rule, EF Core/SQLite, Problem Details, health checks, Docker and CI with code coverage.
+Modernized **.NET 10** REST API with a separated and unit-tested business rule, startup reference-data seeding, side-effect-free GET behavior, EF Core/SQLite, Problem Details, health checks, Docker and CI with code coverage.
 
 **.NET 10 · ASP.NET Core · EF Core · NUnit · Docker · GitHub Actions**
 
